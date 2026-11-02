@@ -2,7 +2,8 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello from my first DevOps project!");
+  //res.end("Hello from my first DevOps project!");
+  res.end("..");
 });
 
 server.listen(3000, () => {
